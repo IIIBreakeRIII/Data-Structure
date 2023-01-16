@@ -21,5 +21,4 @@ user1.name = "jeeon"
 user1.email = "jeeon@email.com"
 user1.passwrod = "12345"
 
-user1.login(user1, "jeeon@email.com", "12345")
 user1.login("jeeon@email.com", "12345")
