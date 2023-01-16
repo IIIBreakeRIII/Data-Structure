@@ -35,7 +35,15 @@ user3.password = "02468"
 
 
 # 인스턴스 메소드 출력
+# 클래스 이름.메서드 이름(인스턴스)
+# 클래스의 메서드를 호출
 
 User.SayHello(user1)
 User.SayHello(user2)
 User.SayHello(user3)
+
+# 다음과 같이도 사용 가능
+# 인스턴스 이름.메서드 이름()
+# 인스턴스의 메서드를 호출
+
+user1.SayHello()      # 파라미터를 호출할 필요 없음
