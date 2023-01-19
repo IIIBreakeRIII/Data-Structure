@@ -21,4 +21,3 @@ User.count = 5                              # 다음과 같이 설정해야함
 
 print(user1.count)                          # 이것도 가능
 print(user2.count)
-
