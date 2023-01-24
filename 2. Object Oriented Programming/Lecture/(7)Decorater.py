@@ -14,5 +14,4 @@ AddPrintTo(PrintHello)()
 
 # 다음과 같이도 가능
 PrintHello = AddPrintTo(PrintHello)
-
 PrintHello()
