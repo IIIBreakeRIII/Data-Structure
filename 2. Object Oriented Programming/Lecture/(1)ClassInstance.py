@@ -8,7 +8,7 @@ class User:
     # 인사 메시지 출력 메소드
     print("안녕하세요! 저는 {}입니다!".format(SomeUser.name))
 
-#인스턴스 호출
+# 인스턴스 호출
 user1 = User()
 user2 = User()
 user3 = User()
