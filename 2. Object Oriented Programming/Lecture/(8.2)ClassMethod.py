@@ -14,6 +14,8 @@ class User:
   def __str__(self):
     return "사용자: {}, 이메일: {}".format(self.name, self.email)
 
+  # NumberOfUsers는 인스턴스 변수를 사용하지 않기 때문
+  # self 파라미터 사용 안함
   def NumberOfUsers(self):
     print("총 유저 수는 : {}입니다.".format(User.count))
 
