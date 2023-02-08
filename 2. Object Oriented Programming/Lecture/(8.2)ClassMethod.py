@@ -14,13 +14,13 @@ class User:
   def __str__(self):
     return "사용자: {}, 이메일: {}".format(self.name, self.email)
 
-  @classmethod    # 데코레이터 : NumberOfUsers를 클래스 메서드로 만들어줌
-  def NumberOfUsers(cls):           # 클래스 메서드 규칙 1 : 첫번째 파라미터의 이름은 꼭 cls 사용, User Class를 나타냄
-    print("총 유저 수 : {}입니다.".format(cls.count))
+  def NumberOfUsers(self):
+    print("총 유저 수는 : {}입니다.".format(User.count))
 
 user1 = User("박제언", "jeeon@email.com", "12345")
 user2 = User("류현소", "hyeonso@email.com", "13579")
 user3 = User("김연아", "yuna@email.com", "24680")
 
-User.NumberOfUsers()
+# 클래스 메서드 사용
+User.NumberOfUsers(user1)
 user1.NumberOfUsers()
