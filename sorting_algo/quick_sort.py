@@ -1,4 +1,5 @@
 # Quick Sort Algorithm
+# 퀵 정렬 알고리즘
 
 def quick_sort(num_list, left, right):
     L, R = left, right
